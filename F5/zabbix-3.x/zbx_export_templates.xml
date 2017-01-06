@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.0</version>
-    <date>2017-01-06T01:45:30Z</date>
+    <date>2017-01-06T03:59:09Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -3822,9 +3822,9 @@
                     <name>CPU</name>
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysMultiHostCpuIndex</snmp_oid>
+                    <snmp_oid>discovery[{#SNMPVALUE},F5-BIGIP-SYSTEM-MIB::sysMultiHostCpuIndex.&quot;0&quot;]</snmp_oid>
                     <key>snmp.discovery.cpu</key>
-                    <delay>86400</delay>
+                    <delay>60</delay>
                     <status>0</status>
                     <allowed_hosts/>
                     <snmpv3_contextname/>
@@ -4070,9 +4070,9 @@
                     <name>Nodes</name>
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>F5-BIGIP-LOCAL-MIB::ltmNodeAddrStatusName</snmp_oid>
+                    <snmp_oid>discovery[{#SNMPVALUE},F5-BIGIP-LOCAL-MIB::ltmNodeAddrStatusName]</snmp_oid>
                     <key>snmp.discovery.nodes</key>
-                    <delay>86400</delay>
+                    <delay>60</delay>
                     <status>0</status>
                     <allowed_hosts/>
                     <snmpv3_contextname/>
@@ -4307,9 +4307,9 @@
                     <name>Pools</name>
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>F5-BIGIP-LOCAL-MIB::ltmPoolStatName</snmp_oid>
+                    <snmp_oid>discovery[{#SNMPVALUE},F5-BIGIP-LOCAL-MIB::ltmPoolStatName]</snmp_oid>
                     <key>snmp.discovery.pools</key>
-                    <delay>86400</delay>
+                    <delay>60</delay>
                     <status>0</status>
                     <allowed_hosts/>
                     <snmpv3_contextname/>
@@ -4769,9 +4769,9 @@
                     <name>VirtualServers</name>
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>F5-BIGIP-LOCAL-MIB::ltmVirtualServStatName</snmp_oid>
+                    <snmp_oid>discovery[{#SNMPVALUE},F5-BIGIP-LOCAL-MIB::ltmVirtualServStatName]</snmp_oid>
                     <key>snmp.discovery.virtualserver</key>
-                    <delay>86400</delay>
+                    <delay>60</delay>
                     <status>0</status>
                     <allowed_hosts/>
                     <snmpv3_contextname/>
