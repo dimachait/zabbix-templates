@@ -1,0 +1,42 @@
++-------------------------------+-------+---------------------------+
+| name                          | value | newvalue                  |
++-------------------------------+-------+---------------------------+
+| F5 AvailState                 | 0     | none                      |
+| F5 AvailState                 | 1     | green                     |
+| F5 AvailState                 | 2     | yellow                    |
+| F5 AvailState                 | 3     | red                       |
+| F5 AvailState                 | 4     | blue                      |
+| F5 Failover state             | 0     | unknown                   |
+| F5 Failover state             | 1     | offline                   |
+| F5 Failover state             | 2     | forceOffline              |
+| F5 Failover state             | 3     | standby                   |
+| F5 Failover state             | 4     | active                    |
+| F5 ltmPoolLbMode              | 0     | roundRobin                |
+| F5 ltmPoolLbMode              | 1     | ratioMember               |
+| F5 ltmPoolLbMode              | 2     | leastConnMember           |
+| F5 ltmPoolLbMode              | 3     | observedMember            |
+| F5 ltmPoolLbMode              | 4     | predictiveMember          |
+| F5 ltmPoolLbMode              | 5     | ratioNodeAddress          |
+| F5 ltmPoolLbMode              | 6     | leastConnNodeAddress      |
+| F5 ltmPoolLbMode              | 7     | fastestNodeAddress        |
+| F5 ltmPoolLbMode              | 8     | observedNodeAddress       |
+| F5 ltmPoolLbMode              | 9     | predictiveNodeAddress     |
+| F5 ltmPoolLbMode              | 10    | dynamicRatio              |
+| F5 ltmPoolLbMode              | 11    | fastestAppResponse        |
+| F5 ltmPoolLbMode              | 12    | leastSessions             |
+| F5 ltmPoolLbMode              | 13    | dynamicRatioMember        |
+| F5 ltmPoolLbMode              | 14    | l3Addr                    |
+| F5 ltmPoolLbMode              | 15    | weightedLeastConnMember   |
+| F5 ltmPoolLbMode              | 16    | weightedLeastConnNodeAddr |
+| F5 ltmPoolLbMode              | 17    | ratioSession              
+| F5 sysCmSyncStatusId          | 0     | unknown                   |
+| F5 sysCmSyncStatusId          | 1     | syncing                   |
+| F5 sysCmSyncStatusId          | 2     | needManualSync            |
+| F5 sysCmSyncStatusId          | 3     | inSync                    |
+| F5 sysCmSyncStatusId          | 4     | syncFailed                |
+| F5 sysCmSyncStatusId          | 5     | syncDisconnected          |
+| F5 sysCmSyncStatusId          | 6     | standalone                |
+| F5 sysCmSyncStatusId          | 7     | awaitingInitialSync       |
+| F5 sysCmSyncStatusId          | 8     | incompatibleVersion       |
+| F5 sysCmSyncStatusId          | 9     | partialSync               |
++-------------------------------+-------+---------------------------+
