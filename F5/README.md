@@ -11,6 +11,7 @@ The template uses SNMP to get the following data from the F5
  
 ## Triggers 
 The following triggers are defined
+
 1. High CPU utilization
 2. Out of sync configuration state
 3. Low free TMM memory 
@@ -19,6 +20,7 @@ The following triggers are defined
 
 ## Usage
 Using the template
+
 1. Download SNMP MIBs from a F5 device, place in your Zabbix server and Zabbix proxy SNMP MIB directory and restart the service
 2. Configure {$SNMP_COMMUNITY} Macro under the host in Zabbix
 3. Create matching SNMP Community on your F5 device and add the Zabbix server and proxy IP to the allowed hosts
